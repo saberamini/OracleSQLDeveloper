@@ -31,7 +31,7 @@ In the application that opens up, we will create a new connection by clicking th
 
 <img src="AppDevelopmentVm4a.png" target="\_blank" alt="App Development VM" width="400" align="middle">
 
-In the new connection window that opens up, fill in the information as follows.  The password (for this and all other cases in the VM environment) is "oracle".
+In the new connection window that opens up, fill in the information as follows.  The password (for this and all other cases in the VM environment) is "oracle".  Once you are done, click "Test".  You should see the words Status:Success appear as shown in the Figure.  If you get an error message, make sure all the fields are correctly typed and try again.
 
-<img src="AppDevelopmentVm4.png" target="\_blank" alt="App Development VM" width="400" align="middle">
+<img src="AppDevelopmentVm5.png" target="\_blank" alt="App Development VM" width="400" align="middle">
 
