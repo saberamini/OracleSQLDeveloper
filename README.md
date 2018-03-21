@@ -35,3 +35,38 @@ In the new connection window that opens up, fill in the information as follows. 
 
 <img src="AppDevelopmentVm5.png" target="\_blank" alt="App Development VM" width="400" align="middle">
 
+Now Select connect.
+
+Download the file createStudent.sql and sql_book_add_tables.sql from the course website.
+
+In SQL Developer Click File Open.
+
+Click the Browse button and locate the script createStudent.sql that you just downloaded.
+
+Open the file, which brings it into the worksheet.
+
+Click the Run Script icon or F5 to run the script.
+
+After the script completes (approximately 3-5 minutes), it will show a list of counts representing the number of rows it created for each table. Compare that list on screen with the following list. The two lists should match.
+```
+Count of COURSE Table: 30
+Count of ENROLLMENT Table: 226
+Count of GRADE Table: 2004
+Count of GRADE_CONVERSION Table: 15
+Count of GRADE_TYPE Table: 6
+Count of GRADE_TYPE_WEIGHT Table: 300
+Count of INSTRUCTOR Table: 10
+Count of SECTION Table: 78
+Count of STUDENT Table: 268
+Count of ZIPCODE Table: 227
+```
+Click the Browse button to locate in the C:\guest\schemasetup directory the script named sql_book_add_tables.sql
+Open the file, which brings it into the worksheet.
+
+Click the Run Script icon or F5 to run the script.
+
+Select your apollo_oracle connection tab.
+
+Type SELECT * FROM COURSE
+
+Click the Run Script icon or F5 to run the script.  Make sure you get a list of courses.
